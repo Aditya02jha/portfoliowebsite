@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Security: only this site's own files + Google Fonts may load. Add a domain here if you add a 3rd-party script. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io mailto:; base-uri 'self'; object-src 'none'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- Title & description are filled from assets/js/site.config.js -->
+    <title>Websites & Apps for Growing Businesses</title>
+    <meta name="description" content="Freelance developer building fast, modern websites and web apps for small and medium businesses." />
+    <meta name="theme-color" content="#08080a" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles (layered: tokens → base → components → layout → sections → effects) -->
+    <link rel="stylesheet" href="assets/css/tokens.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/sections.css" />
+    <link rel="stylesheet" href="assets/css/effects.css" />
+  </head>
+
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header id="nav"></header>
+    <main id="app"></main>
+    <footer id="footer"></footer>
+
+    <noscript><p class="noscript">This site needs JavaScript enabled to display.</p></noscript>
+
+    <!-- 1. Your content -->
+    <script src="assets/js/site.config.js"></script>
+
+    <!-- 2. Core helpers -->
+    <script src="assets/js/core/utils.js"></script>
+    <script src="assets/js/core/icons.js"></script>
+
+    <!-- 3. Section modules (one file per section) -->
+    <script src="assets/js/sections/nav.js"></script>
+    <script src="assets/js/sections/hero.js"></script>
+    <script src="assets/js/sections/marquee.js"></script>
+    <script src="assets/js/sections/services.js"></script>
+    <script src="assets/js/sections/work.js"></script>
+    <script src="assets/js/sections/stats.js"></script>
+    <script src="assets/js/sections/process.js"></script>
+    <script src="assets/js/sections/pricing.js"></script>
+    <script src="assets/js/sections/about.js"></script>
+    <script src="assets/js/sections/testimonials.js"></script>
+    <script src="assets/js/sections/faq.js"></script>
+    <script src="assets/js/sections/contact.js"></script>
+    <script src="assets/js/sections/footer.js"></script>
+
+    <!-- 4. Interactions + boot -->
+    <script src="assets/js/core/effects.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

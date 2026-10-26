@@ -1,0 +1,46 @@
+/* Design tokens — change the whole look from here.
+   (Accent colours can also be overridden from site.config.js → theme) */
+:root {
+  /* Surfaces */
+  --bg: #08080a;
+  --bg-2: #0d0d11;
+  --bg-3: #131318;
+  --surface: rgba(255, 255, 255, 0.03);
+  --surface-2: rgba(255, 255, 255, 0.055);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-2: rgba(255, 255, 255, 0.15);
+
+  /* Text */
+  --text: #f3f3ef;
+  --muted: #a1a1aa;
+  --dim: #63636d;
+
+  /* Accents */
+  --accent: #c8ff3d;
+  --accent-ink: #0a0b05;
+  --accent-2: #8b7bff;
+  --accent-3: #ff7a59;
+
+  /* Type */
+  --font-sans: "Inter Tight", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Instrument Serif", "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --fs-hero: clamp(2.9rem, 1.4rem + 6.4vw, 7.4rem);
+  --fs-h2: clamp(2.2rem, 1.3rem + 3.6vw, 4.6rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem);
+  --fs-lead: clamp(1.05rem, 0.98rem + 0.35vw, 1.28rem);
+
+  /* Shape & space */
+  --radius-sm: 12px;
+  --radius: 22px;
+  --radius-lg: 32px;
+  --container: 1260px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-y: clamp(88px, 12vw, 168px);
+  --nav-h: 76px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
