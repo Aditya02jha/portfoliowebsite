@@ -41,7 +41,8 @@ window.SITE = {
     // Edit the pieces freely (any split works). Use [] to hide the button.
     phoneParts: ["+91", "93158", "12393"],
     whatsappParts: ["91", "9315", "812393"], // country code + number, digits only
-    whatsappMessage: "Hi Aditya! I'd like to discuss a website for my business.",
+    whatsappMessage:
+      "Hi Aditya! I'd like to discuss a website for my business.",
     location: "India · Working with clients worldwide",
     responseTime: "Replies within 24 hours",
     // Optional: paste a Formspree endpoint (https://formspree.io) to receive
@@ -51,7 +52,11 @@ window.SITE = {
 
   socials: [
     { label: "GitHub", url: "https://github.com/aditya02jha", icon: "github" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/adityajha-dev/", icon: "linkedin" },
+    {
+      label: "LinkedIn",
+      url: "https://linkedin.com/in/adityajha-dev/",
+      icon: "linkedin",
+    },
   ],
 
   /* ---------- Navigation ---------- */
@@ -87,7 +92,11 @@ window.SITE = {
       "I design and build fast, modern websites and custom apps for small and medium businesses — engineered with the same rigor I bring to banking platforms used by 20,000+ people.",
     primaryCta: { label: "Start your project", href: "#contact" },
     secondaryCta: { label: "See my work", href: "#work" },
-    trust: ["Fixed, upfront pricing", "You own 100% of the code", "Launch in as little as 2 weeks"],
+    trust: [
+      "Fixed, upfront pricing",
+      "You own 100% of the code",
+      "Launch in as little as 2 weeks",
+    ],
     // Illustration in the hero (purely decorative mockup)
     mockup: {
       siteName: "Bloom Café",
@@ -118,7 +127,8 @@ window.SITE = {
   services: {
     kicker: "What I build",
     title: "Everything your business needs to *win online.*",
-    intro: "One developer, end to end — from the first sketch to the day you go live, and beyond.",
+    intro:
+      "One developer, end to end — from the first sketch to the day you go live, and beyond.",
     items: [
       {
         icon: "globe",
@@ -217,9 +227,18 @@ window.SITE = {
 
   /* ---------- Stats (numbers animate on scroll) ---------- */
   stats: [
-    { value: 2.5, decimals: 1, suffix: "+", label: "Years building production software" },
+    {
+      value: 6.5,
+      decimals: 1,
+      suffix: "+",
+      label: "Years building production software",
+    },
     { value: 20000, suffix: "+", label: "Users served by systems I've built" },
-    { value: 70, suffix: "%", label: "Faster deployments after my pipeline rebuild" },
+    {
+      value: 70,
+      suffix: "%",
+      label: "Faster deployments after my pipeline rebuild",
+    },
     { value: 80, suffix: "%+", label: "Test coverage I hold my code to" },
   ],
 
@@ -310,16 +329,42 @@ window.SITE = {
     title: "Banking-grade engineering, *small-business* friendly.",
     photo: "", // e.g. "assets/img/me.jpg" — leave "" to show initials
     paragraphs: [
-      "I'm Aditya — a software engineer who has spent 2.5+ years building secure, high-traffic systems for an investment-banking platform.",
+      "I'm Aditya — a software engineer who has spent 6.5+ years building secure, high-traffic systems for an investment-banking platform.",
       "Now I bring that same discipline to small and medium businesses: sites that are fast, secure and built to last — without the agency price tag or the jargon.",
     ],
     reasons: [
-      { icon: "shield", title: "Built to last", desc: "Tested, secure code — not a fragile template." },
-      { icon: "key", title: "You own it all", desc: "Code, domain and hosting are yours. No lock-in." },
-      { icon: "chat", title: "Talk to the builder", desc: "No middlemen. Direct, quick replies." },
-      { icon: "heart", title: "Here after launch", desc: "Support and updates whenever you need them." },
+      {
+        icon: "shield",
+        title: "Built to last",
+        desc: "Tested, secure code — not a fragile template.",
+      },
+      {
+        icon: "key",
+        title: "You own it all",
+        desc: "Code, domain and hosting are yours. No lock-in.",
+      },
+      {
+        icon: "chat",
+        title: "Talk to the builder",
+        desc: "No middlemen. Direct, quick replies.",
+      },
+      {
+        icon: "heart",
+        title: "Here after launch",
+        desc: "Support and updates whenever you need them.",
+      },
     ],
-    skills: ["React", "Node.js", "Java", "Spring Boot", "Python", "AWS", "Docker", "SQL", "LangChain"],
+    skills: [
+      "React",
+      "Node.js",
+      "Java",
+      "Spring Boot",
+      "Python",
+      "AWS",
+      "Docker",
+      "SQL",
+      "LangChain",
+    ],
   },
 
   /* ---------- Testimonials ----------
@@ -359,10 +404,25 @@ window.SITE = {
   contactSection: {
     kicker: "Let's talk",
     title: "Got an idea? Let's build something *people remember.*",
-    intro: "Tell me a little about your business. You'll get a reply — and a free plan — within 24 hours.",
-    projectTypes: ["Website", "Online store", "Booking system", "Custom app", "AI / automation", "Redesign"],
-    budgets: ["Under ₹15k", "₹15k – 35k", "₹35k – 75k", "₹75k+", "Not sure yet"],
-    successMessage: "Thanks! Your message is on its way — I'll reply within 24 hours.",
+    intro:
+      "Tell me a little about your business. You'll get a reply — and a free plan — within 24 hours.",
+    projectTypes: [
+      "Website",
+      "Online store",
+      "Booking system",
+      "Custom app",
+      "AI / automation",
+      "Redesign",
+    ],
+    budgets: [
+      "Under ₹15k",
+      "₹15k – 35k",
+      "₹35k – 75k",
+      "₹75k+",
+      "Not sure yet",
+    ],
+    successMessage:
+      "Thanks! Your message is on its way — I'll reply within 24 hours.",
   },
 
   /* ---------- Footer ---------- */
